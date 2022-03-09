@@ -55,11 +55,6 @@ li:first-letter {
   font-weight: 100;
 }
 
-.myLink {
-  font-weight: 100;
-  opacity: 0.8;
-}
-
 a {
   color: rgb(200, 84, 132);
   opacity: 0.8;
@@ -74,6 +69,22 @@ a:hover {
   opacity: 0.5;
 }
 
+#changeIt {
+  align-items: center;
+}
+
+#icon {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  right: 1rem;
+}
+
+.frontDetails {
+  position: relative;
+  left: 11rem;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 40px auto;
@@ -84,7 +95,7 @@ a:hover {
   border: 1px solid rgba(208, 149, 216, 0.2);
   border-radius: 6px;
   background-color: rgba(208, 149, 216, 0.4);
-  height: 490px;
+  height: 495px;
 }
 
 .overview {
@@ -140,11 +151,8 @@ a:hover {
   font-size: 16px;
 }
 
-#changeIt {
-  align-items: center;
+.myLink {
+  font-weight: 100;
+  opacity: 0.8;
 }
 
-#icon {
-  height: 150px;
-  width: 150px;
-}
