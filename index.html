@@ -13,6 +13,12 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -46,27 +52,29 @@
               <li id="description"></li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row" id="changeIt">
             <div class="col-5">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                </div>
-                <div class="col-7">
-                  <ul>
-                 <li><strong id="temperature"></strong
-                  ><span class="units">°C</span></li>
+              <img src="" alt="Clear" id="icon" class="float-left" />
+            </div>
+            <div class="col-7">
+              <ul>
+                <li>
+                  <strong id="temperature"></strong
+                  ><span class="units">°C</span>
+                </li>
                 <li>Humidity: <span id="humidity"></span> %</li>
                 <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
-          <hr>
+          <hr />
           <div class="weather-forecast" id="forecast"></div>
         </div>
         <small>
-          <a href="https://github.com/rosejaz/weather-app" target="_blank"
+          <a href="https://github.com/rosejaz/weather-app" class="myLink" target="_blank"
             >Open-source code</a
           >
-         <span id="by-Rose">by Rose</span>
+          <span id="by-Rose">by Rose</span>
         </small>
       </div>
     </div>
